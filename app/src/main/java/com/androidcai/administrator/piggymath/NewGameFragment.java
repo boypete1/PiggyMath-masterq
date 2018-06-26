@@ -170,7 +170,7 @@ public class NewGameFragment extends Fragment {
         dlgAlert.setMessage("Your score is " + strFileName);
         dlgAlert.setPositiveButton("Exit", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
+            public void onClick(DialogInterface dialogInterface, int  which) {
                 finishGame();
             }
         });
